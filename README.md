@@ -1,47 +1,18 @@
 # Electronic-Circuits--Full-Wave-Centre-Tapped-Transformer-Rectifier
 
 ## AIM:
-To simulate a Full wave Centre Tapped Transformer rectifier circuit and compare the outputs with and without filter:
+To implement a full wave centre tapped rectifier with and without filter and to measure and compare the output and peak inverse voltages.
 ## CIRCUIT DIAGRAM:
 
 ## STEPS FOR SIMULATION:
-1.	Open the Ltspice software
-2.	
-3.	FileNew Schematic
-4.	
-5.	Click component symbol  to browse and select the components
-6.	
-7.	Find the diode or diodes from the component list and place them.
-8.	
-9.	Click OK and place the component
-10.	
-11.	Search for resistor from component menu or from the tab icons
-12.	
-13.	Place the resistors
-14.	
-15.	Search for capacitor from the component menu or from the tab icons
-16.	
-17.	Place the capacitors
-18.	
-19.	Use ctrl + R to rotate the components
-20.	
-21.	Use wire symbol  to connect the components as per the circuit diagram
-22.	
-23.	Right click each components to give the values
-24.	
-25.	Use run button  to run the simulation
-26.	
-27.	Set the step time and click ok
-28.	
-29.	Output dialog box will open
-30.	
-31.	In the output dialog box right click and select add traces
-32.	
-33.	Node voltages and current of each components names will be displayed.
-34.	
-35.	Select the required node voltages (V(n001)) to get the waveforms.
-36.
-37.	To get the voltage across a component the name of the trace should represent both the nodes. example V(n001,n002))
+1.	Connections are made as shown in the circuit diagram
+	
+2.	The voltage across the secondary terminals of the transformer, the voltage across the load resistance and the voltage across the diode, (which is the Peak Inverse Voltage PIV of the diode) are measured along with their time periods using a CRO(set in DC mode)
+	
+3.	The waveforms for the the above three voltages are drawn as obtained on the CRO.
+	
+4.	A capacitance filter is connected as shown in the following circuit diagram and the wave forms are obtained the same way as without filter and readings are obtained the same way from the CRO.
+	
 
 ## OUTPUT:
 
